@@ -2,7 +2,7 @@ name: testing-actions
 on: push
 jobs:
   my-job:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
       - name: my-step
         run: echo "Testing Actions"
